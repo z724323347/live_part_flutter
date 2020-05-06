@@ -1,5 +1,9 @@
 {
     "app_name": "Live",
     "cancel": "cancel",
-    "confirm": "confirm"
+    "confirm": "confirm",
+    "square":"Square",
+    "attention":"Attention",
+    "ranking":"Ranking",
+    "order":"Order"
 }

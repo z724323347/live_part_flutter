@@ -53,6 +53,42 @@ class S {
       args: [],
     );
   }
+
+  String get square {
+    return Intl.message(
+      '广场',
+      name: 'square',
+      desc: '',
+      args: [],
+    );
+  }
+
+  String get attention {
+    return Intl.message(
+      '关注',
+      name: 'attention',
+      desc: '',
+      args: [],
+    );
+  }
+
+  String get ranking {
+    return Intl.message(
+      '排行',
+      name: 'ranking',
+      desc: '',
+      args: [],
+    );
+  }
+
+  String get order {
+    return Intl.message(
+      '订单',
+      name: 'order',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {

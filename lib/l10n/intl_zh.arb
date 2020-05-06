@@ -1,5 +1,9 @@
 {
     "app_name": "直播",
     "cancel": "取消",
-    "confirm": "确定"
+    "confirm": "确定",
+    "square":"广场",
+    "attention":"关注",
+    "ranking":"排行",
+    "order":"订单"
 }
