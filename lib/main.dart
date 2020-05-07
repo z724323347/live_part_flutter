@@ -13,7 +13,6 @@ import 'page/index.dart';
 
 // void main() => runApp(MyApp());
 void main() {
-  print(window.defaultRouteName);
   runApp(MyApp(
     routeName: window.defaultRouteName,
   ));
@@ -47,18 +46,18 @@ class MyApp extends StatelessWidget {
     String route = routeName;
     print('roure :  $route');
 
-    switch (route) {
-      case 'routeSquare':
-        buildRouteSquare();
-        break;
-      case 'routeOrder':
-        buildRouteOrder();
-        break;
-      default:
-        buildRouteOrder();
-        // buildDefault(context);
-        break;
-    }
+    // switch (route) {
+    //   case 'routeSquare':
+    //     buildRouteSquare();
+    //     break;
+    //   case 'routeOrder':
+    //     buildRouteOrder();
+    //     break;
+    //   default:
+    //     buildRouteOrder();
+    //     // buildDefault(context);
+    //     break;
+    // }
 
     return MaterialApp(
       title: 'Flutter App',
@@ -77,7 +76,7 @@ class MyApp extends StatelessWidget {
         return deviceLocale;
       },
       routes: Routes.routes,
-      home: Index(),
+      // home: Index(),
     );
   }
 

@@ -1,11 +1,18 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_app/page/attention/attention.dart';
 import 'package:flutter_app/test.dart';
+
+import '../page/index.dart';
 
 
 class Routes {
   static Map<String, WidgetBuilder> routes = {
     // test page 测试页面入口
     '/testPage': (_) => TestPage(),
+    '/': (_) => Index(),
+    'routeOrder': (_) => Index(),
+    'routeSquare':(_) => AttentionIndex(),
+    
 
     // 启动页
     // '/splash': (_) => Splash(),
